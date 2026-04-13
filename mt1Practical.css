@@ -1,0 +1,28 @@
+ body {
+     font-family: Arial;
+     text-align: center;
+     margin-top: 50px;
+     background-color: #b0adad;
+ }
+ 
+ .box {
+     background: rgb(245, 120, 120);
+     padding: 80px;
+     width: 500px;
+     margin: auto;
+     border-radius: 15px;
+ }
+ 
+ input {
+     padding: 15px;
+     margin: 10px;
+     background: #ebdbdb;
+     width: 80%;
+ }
+ 
+ button {
+     padding: 10px;
+     margin: 10px;
+     width: 80%;
+     height: 80%;
+ }
