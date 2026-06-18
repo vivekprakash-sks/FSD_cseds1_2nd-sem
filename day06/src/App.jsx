@@ -22,11 +22,12 @@ const [error,setError]=useState({});
     const { name, value } = e.target;
     setFormData({ ...data, [name]: value });
   }
+  const errorStyle={color:"red",fontSize:"14px"};
   return (
     <div>
       <h2>Registration Form</h2>
-      <p>(error.username)</p>
       <form onSubmit={handleSubmit}>
+        <p style={errorStyle}>{}error.username</p>
         <input type="text" name="username" id="username"
           placeholder='Enter your username' value={data.username}
           onChange={handleChange} /><br />
