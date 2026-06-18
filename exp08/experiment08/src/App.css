@@ -1,0 +1,97 @@
+/* Reset and base styles */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f172a;
+    /* Deep Slate */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/* Main Application Card */
+
+.container {
+    background: #1e293b;
+    /* Darker Slate */
+    width: 350px;
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    border: 1px solid #334155;
+}
+
+h1 {
+    color: #f8fafc;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+/* Counter Display */
+
+.counter {
+    font-size: 72px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #38bdf8;
+    /* Vibrant Blue */
+}
+
+
+/* Button Layout */
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.buttons button {
+    padding: 12px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out, opacity 0.2s;
+}
+
+
+/* Button Click Animation */
+
+.buttons button:active {
+    transform: scale(0.95);
+}
+
+.buttons button:hover {
+    opacity: 0.85;
+}
+
+
+/* Specific Button Colors */
+
+.btn-inc {
+    background-color: #10b981;
+    /* Emerald Green */
+    flex: 1;
+}
+
+.btn-dec {
+    background-color: #ef4444;
+    /* Rose Red */
+    flex: 1;
+}
+
+.btn-reset {
+    background-color: #6366f1;
+    /* Indigo */
+    width: 100%;
+}
